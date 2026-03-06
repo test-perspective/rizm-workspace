@@ -15,7 +15,7 @@
 
 Rizm はあなたの環境内で完結して動作します。データ × マニフェスト = UI。AI管理者がワークフローに最適化されたUIを生成します。
 
-[**ドキュメント**](https://rizm.test-perspective.com/) |
+[**ドキュメント**](https://kenputer-documents.scrollhelp.site/rizm/rizm-japanese) |
 [**Changelog**](https://github.com/test-perspective/rizm-beta/releases) |
 [**デモ**](https://demo.test-perspective.com/) |
 [**フォーラム**](https://forum.test-perspective.com/)

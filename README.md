@@ -15,7 +15,7 @@
 
 Rizm runs entirely in your environment. Data × Manifest = UI. Have the AI Administrator generate a UI optimized for your workflow.
 
-[**Docs**](https://rizm.test-perspective.com/) |
+[**Docs**](https://kenputer-documents.scrollhelp.site/rizm/rizm-start-guide) |
 [**Changelog**](https://github.com/test-perspective/rizm-beta/releases) |
 [**Demo**](https://demo.test-perspective.com/) |
 [**Forum**](https://forum.test-perspective.com/)
