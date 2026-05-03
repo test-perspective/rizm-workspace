@@ -59,7 +59,7 @@ bash ./scripts/setup-linux.sh local
 bash ./scripts/setup-macos.sh local
 ```
 
-Access Rizm at `http://localhost:8080`. Log in with **Sign in as Admin** on the demo, or use the default credentials after first run: `admin@example.local` / `change-this-password`.
+Access Rizm at `http://localhost:8080` and sign in with the default first-run credentials: `admin@example.local` / `change-this-password`. The hosted [demo](https://demo.test-perspective.com/) signs you in as admin automatically — the login screen is skipped.
 
 For domain deployment, manual setup, MCP configuration, and other operational details, see the [Wiki](https://github.com/test-perspective/rizm-beta/wiki): [Deployment Guide](https://github.com/test-perspective/rizm-beta/wiki/Deployment%E2%80%90Guide), [Deployment Guide.ja](https://github.com/test-perspective/rizm-beta/wiki/Deployment%E2%80%90Guide.ja), [MCP Setup](https://github.com/test-perspective/rizm-beta/wiki/MCP%E2%80%90Setup), [Licensing and Future Updates](https://github.com/test-perspective/rizm-beta/wiki/Licensing%E2%80%90and%E2%80%90Future%E2%80%90Updates).
 

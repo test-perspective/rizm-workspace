@@ -57,7 +57,7 @@ bash ./scripts/setup-linux.sh local
 bash ./scripts/setup-macos.sh local
 ```
 
-`http://localhost:8080` でアクセス。デモではログイン画面の **「Sign in as Admin」** をクリック。初回起動後は `admin@example.local` / `change-this-password` でログインできます。
+`http://localhost:8080` でアクセスし、初回起動後の既定のログイン情報 `admin@example.local` / `change-this-password` でサインインしてください。ホスト版の[デモ](https://demo.test-perspective.com/)では自動的に admin としてサインインされ、ログイン画面は表示されません。
 
 ドメイン運用、手動セットアップ、MCP 設定などの詳しい手順は [Wiki](https://github.com/test-perspective/rizm-beta/wiki) にまとめています。[Deployment Guide](https://github.com/test-perspective/rizm-beta/wiki/Deployment%E2%80%90Guide)、[Deployment Guide.ja](https://github.com/test-perspective/rizm-beta/wiki/Deployment%E2%80%90Guide.ja)、[MCP Setup](https://github.com/test-perspective/rizm-beta/wiki/MCP%E2%80%90Setup)、[Licensing and Future Updates](https://github.com/test-perspective/rizm-beta/wiki/Licensing%E2%80%90and%E2%80%90Future%E2%80%90Updates) を参照してください。
 
