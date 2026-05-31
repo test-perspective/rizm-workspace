@@ -3,3 +3,8 @@
 
 # Docker volumes (if mounted locally)
 data/
+
+# Local README preview artifacts
+preview-readme.html
+.preview-readme-body.html
+.preview-readme-ja-body.html

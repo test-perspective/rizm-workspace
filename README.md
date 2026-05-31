@@ -12,6 +12,7 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/license/apache-2-0)
 [![X](https://img.shields.io/badge/X-@kenabe__tp-1DA1F2?logo=x)](https://x.com/kenabe_tp)
 [![Forum](https://img.shields.io/badge/Forum-Community-blue)](https://forum.test-perspective.com/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/kabekenputer/keel-web)](https://hub.docker.com/u/kabekenputer)
 
 Rizm runs entirely in your environment. Data × Manifest = UI. Have the AI Administrator generate a UI optimized for your workflow.
 
@@ -60,6 +61,18 @@ bash ./scripts/setup-macos.sh local
 ```
 
 Access Rizm at `http://localhost:8080` and sign in with the default first-run credentials: `admin@example.local` / `change-this-password`. The hosted [demo](https://demo.test-perspective.com/) signs you in as admin automatically — the login screen is skipped.
+
+### Docker Images
+
+Pre-built images are published on [Docker Hub](https://hub.docker.com/u/kabekenputer):
+
+| Image | Role |
+|-------|------|
+| [`kabekenputer/keel-web`](https://hub.docker.com/r/kabekenputer/keel-web) | Frontend (Nginx) |
+| [`kabekenputer/keel-api`](https://hub.docker.com/r/kabekenputer/keel-api) | Backend API |
+| [`kabekenputer/keel-collab`](https://hub.docker.com/r/kabekenputer/keel-collab) | Real-time collaboration |
+
+Setup scripts pull these images automatically. Override image tags via `.env` if needed (see [.env.example](.env.example)).
 
 For domain deployment, manual setup, MCP configuration, and other operational details, see the [Wiki](https://github.com/test-perspective/rizm-beta/wiki): [Deployment Guide](https://github.com/test-perspective/rizm-beta/wiki/Deployment%E2%80%90Guide), [Deployment Guide.ja](https://github.com/test-perspective/rizm-beta/wiki/Deployment%E2%80%90Guide.ja), [MCP Setup](https://github.com/test-perspective/rizm-beta/wiki/MCP%E2%80%90Setup), [Licensing and Future Updates](https://github.com/test-perspective/rizm-beta/wiki/Licensing%E2%80%90and%E2%80%90Future%E2%80%90Updates).
 

@@ -12,6 +12,7 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/license/apache-2-0)
 [![X](https://img.shields.io/badge/X-@kenabe__tp-1DA1F2?logo=x)](https://x.com/kenabe_tp)
 [![Forum](https://img.shields.io/badge/Forum-Community-blue)](https://forum.test-perspective.com/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/kabekenputer/keel-web)](https://hub.docker.com/u/kabekenputer)
 
 Rizm はあなたの環境内で完結して動作します。データ × マニフェスト = UI。AI管理者がワークフローに最適化されたUIを生成します。
 
@@ -58,6 +59,18 @@ bash ./scripts/setup-macos.sh local
 ```
 
 `http://localhost:8080` でアクセスし、初回起動後の既定のログイン情報 `admin@example.local` / `change-this-password` でサインインしてください。ホスト版の[デモ](https://demo.test-perspective.com/)では自動的に admin としてサインインされ、ログイン画面は表示されません。
+
+### Docker イメージ
+
+ビルド済みイメージは [Docker Hub](https://hub.docker.com/u/kabekenputer) で公開しています:
+
+| イメージ | 役割 |
+|----------|------|
+| [`kabekenputer/keel-web`](https://hub.docker.com/r/kabekenputer/keel-web) | フロントエンド（Nginx） |
+| [`kabekenputer/keel-api`](https://hub.docker.com/r/kabekenputer/keel-api) | バックエンド API |
+| [`kabekenputer/keel-collab`](https://hub.docker.com/r/kabekenputer/keel-collab) | リアルタイム共同編集 |
+
+セットアップスクリプトがこれらのイメージを自動取得します。タグの上書きは `.env` で行えます（[.env.example](.env.example) 参照）。
 
 ドメイン運用、手動セットアップ、MCP 設定などの詳しい手順は [Wiki](https://github.com/test-perspective/rizm-beta/wiki) にまとめています。[Deployment Guide](https://github.com/test-perspective/rizm-beta/wiki/Deployment%E2%80%90Guide)、[Deployment Guide.ja](https://github.com/test-perspective/rizm-beta/wiki/Deployment%E2%80%90Guide.ja)、[MCP Setup](https://github.com/test-perspective/rizm-beta/wiki/MCP%E2%80%90Setup)、[Licensing and Future Updates](https://github.com/test-perspective/rizm-beta/wiki/Licensing%E2%80%90and%E2%80%90Future%E2%80%90Updates) を参照してください。
 
